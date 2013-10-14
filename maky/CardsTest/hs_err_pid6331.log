@@ -1,0 +1,180 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2924), pid=6331, tid=3077417840
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Server VM (10.0-b19 mixed mode linux-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x08d59000):  JavaThread "Unknown thread" [_thread_in_vm, id=6333, stack(0xb768a000,0xb76db000)]
+
+Stack: [0xb768a000,0xb76db000],  sp=0xb76d9a90,  free space=318k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x5ecc19]
+V  [libjvm.so+0x2cac60]
+V  [libjvm.so+0x27d53d]
+V  [libjvm.so+0x2822a2]
+V  [libjvm.so+0x59956c]
+V  [libjvm.so+0x5981b5]
+V  [libjvm.so+0x597227]
+V  [libjvm.so+0x596f32]
+V  [libjvm.so+0x59ad3d]
+V  [libjvm.so+0x59a929]
+V  [libjvm.so+0x5cb4fa]
+V  [libjvm.so+0x5cca2f]
+V  [libjvm.so+0x34a248]
+V  [libjvm.so+0x5b9086]
+V  [libjvm.so+0x39c293]
+C  [java+0x2fcc]
+C  [java+0x1942]  JavaMain+0x72
+C  [libpthread.so.0+0x596e]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x08d59000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6333, stack(0xb768a000,0xb76db000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+06000000-0665c000 r-xp 00000000 08:06 10602627   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/server/libjvm.so
+0665c000-066a0000 rwxp 0065c000 08:06 10602627   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/server/libjvm.so
+066a0000-06ac2000 rwxp 00000000 00:00 0 
+08048000-08052000 r-xp 00000000 08:06 10617505   /home/michael/progs/jdk1.6.0_04/bin/java
+08052000-08053000 rwxp 00009000 08:06 10617505   /home/michael/progs/jdk1.6.0_04/bin/java
+08d53000-08db7000 rwxp 00000000 00:00 0          [heap]
+911df000-91228000 r-xs 002cf000 08:06 1999084    /home/michael/progs/android-sdk-linux_86/platforms/android-4/android.jar
+91228000-91229000 ---p 00000000 00:00 0 
+91229000-912a9000 rwxp 00000000 00:00 0 
+912a9000-912aa000 ---p 00000000 00:00 0 
+912aa000-91332000 rwxp 00000000 00:00 0 
+91332000-9134a000 rwxp 00000000 00:00 0 
+9134a000-91358000 rwxp 00000000 00:00 0 
+91358000-91427000 rwxp 00000000 00:00 0 
+91427000-9142f000 rwxp 00000000 00:00 0 
+9142f000-91447000 rwxp 00000000 00:00 0 
+91447000-91455000 rwxp 00000000 00:00 0 
+91455000-91523000 rwxp 00000000 00:00 0 
+91523000-91526000 rwxp 00000000 00:00 0 
+91526000-9153f000 rwxp 00000000 00:00 0 
+9153f000-92540000 rwxp 00000000 00:00 0 
+92540000-95540000 rwxp 00000000 00:00 0 
+95540000-970d0000 rwxp 00000000 00:00 0 
+970d0000-b0e30000 rwxp 00000000 00:00 0 
+b0e30000-b1230000 rwxp 00000000 00:00 0 
+b1230000-b4540000 rwxp 00000000 00:00 0 
+b454c000-b4555000 rwxp 00000000 00:00 0 
+b4555000-b460c000 rwxp 00000000 00:00 0 
+b460c000-b484c000 rwxp 00000000 00:00 0 
+b484c000-b760c000 rwxp 00000000 00:00 0 
+b760c000-b761b000 r-xp 00000000 08:06 10602643   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libzip.so
+b761b000-b761d000 rwxp 0000e000 08:06 10602643   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libzip.so
+b761d000-b7640000 r-xp 00000000 08:06 10602639   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libjava.so
+b7640000-b7642000 rwxp 00023000 08:06 10602639   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libjava.so
+b7642000-b764c000 r-xp 00000000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b764c000-b764d000 r-xp 00009000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b764d000-b764e000 rwxp 0000a000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b764e000-b7661000 r-xp 00000000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b7661000-b7662000 r-xp 00012000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b7662000-b7663000 rwxp 00013000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b7663000-b7665000 rwxp 00000000 00:00 0 
+b766d000-b7678000 r-xp 00000000 08:06 10602638   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libverify.so
+b7678000-b7679000 rwxp 0000b000 08:06 10602638   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/libverify.so
+b7679000-b7681000 rwxs 00000000 08:06 11567233   /tmp/hsperfdata_michael/6331
+b7681000-b7688000 r-xp 00000000 08:06 1196266    /lib/tls/i686/cmov/librt-2.11.1.so
+b7688000-b7689000 r-xp 00006000 08:06 1196266    /lib/tls/i686/cmov/librt-2.11.1.so
+b7689000-b768a000 rwxp 00007000 08:06 1196266    /lib/tls/i686/cmov/librt-2.11.1.so
+b768a000-b768d000 ---p 00000000 00:00 0 
+b768d000-b76db000 rwxp 00000000 00:00 0 
+b76db000-b76ff000 r-xp 00000000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b76ff000-b7700000 r-xp 00023000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b7700000-b7701000 rwxp 00024000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b7701000-b7702000 rwxp 00000000 00:00 0 
+b7702000-b7855000 r-xp 00000000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b7855000-b7856000 ---p 00153000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b7856000-b7858000 r-xp 00153000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b7858000-b7859000 rwxp 00155000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b7859000-b785c000 rwxp 00000000 00:00 0 
+b785c000-b785e000 r-xp 00000000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b785e000-b785f000 r-xp 00001000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b785f000-b7860000 rwxp 00002000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b7860000-b7867000 r-xp 00000000 08:06 10602641   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/jli/libjli.so
+b7867000-b7869000 rwxp 00006000 08:06 10602641   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/jli/libjli.so
+b7869000-b786a000 rwxp 00000000 00:00 0 
+b786a000-b787f000 r-xp 00000000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b787f000-b7880000 r-xp 00014000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b7880000-b7881000 rwxp 00015000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b7881000-b7883000 rwxp 00000000 00:00 0 
+b7884000-b788c000 r-xp 00000000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b788c000-b788d000 r-xp 00007000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b788d000-b788e000 rwxp 00008000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b788e000-b7894000 r-xp 00000000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b7894000-b7895000 r-xp 00006000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b7895000-b7896000 rwxp 00007000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b7896000-b789c000 r-xp 00000000 08:06 10602625   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/native_threads/libhpi.so
+b789c000-b789d000 rwxp 00006000 08:06 10602625   /home/michael/progs/jdk1.6.0_04/jre/lib/i386/native_threads/libhpi.so
+b789d000-b789e000 rwxp 00000000 00:00 0 
+b789e000-b789f000 r-xp 00000000 00:00 0 
+b789f000-b78a1000 rwxp 00000000 00:00 0 
+b78a1000-b78a2000 r-xp 00000000 00:00 0          [vdso]
+b78a2000-b78bd000 r-xp 00000000 08:06 1164659    /lib/ld-2.11.1.so
+b78bd000-b78be000 r-xp 0001a000 08:06 1164659    /lib/ld-2.11.1.so
+b78be000-b78bf000 rwxp 0001b000 08:06 1164659    /lib/ld-2.11.1.so
+bf973000-bf988000 rwxp 00000000 00:00 0          [stack]
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:/home/michael/progs/android-sdk-linux_86/platforms/android-4/android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 39965 -testLoaderClass org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestLoader -loaderpluginname org.eclipse.jdt.junit.runtime -classNames com.maky.cards.test.CardsGameTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+USERNAME=michael
+LD_LIBRARY_PATH=/home/michael/progs/jdk1.6.0_04/jre/lib/i386/server:/home/michael/progs/jdk1.6.0_04/jre/lib/i386:/home/michael/progs/jdk1.6.0_04/jre/../lib/i386:/home/michael/progs/jdk1.6.0_04/jre/lib/i386/client:/home/michael/progs/jdk1.6.0_04/jre/lib/i386:
+SHELL=/bin/bash
+DISPLAY=:0.0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x5ed7c0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x5ed7c0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x4fc230], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x4fc230], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x4fc230], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x4fc230], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x4fe270], sa_mask[0]=0x00000004, sa_flags=0x10000004
+SIGHUP: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGINT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGTERM: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGQUIT: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+
+
+---------------  S Y S T E M  ---------------
+
+OS:squeeze/sid
+
+uname:Linux 2.6.32-24-generic #43-Ubuntu SMP Thu Sep 16 14:17:33 UTC 2010 i686
+libc:glibc 2.11.1 NPTL 2.11.1 
+rlimit: STACK 8192k, CORE 0k, NPROC infinity, NOFILE 1024, AS infinity
+load average:1.21 1.13 1.05
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2029056k(69132k free), swap 4096532k(4064440k free)
+
+vm_info: Java HotSpot(TM) Server VM (10.0-b19) for linux-x86 JRE (1.6.0_04-b12), built on Dec 14 2007 00:57:07 by "java_re" with gcc 3.2.1-7a (J2SE release)
+
+time: Mon Aug 22 14:09:37 2011
+elapsed time: 0 seconds
+

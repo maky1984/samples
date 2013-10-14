@@ -1,0 +1,80 @@
+
+Unexpected Signal : 11 occurred at PC=0xB72D91F6
+Function=(null)
+Library=/home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/client/libjvm.so
+
+NOTE: We are unable to locate the function name symbol for the error
+      just occurred. Please refer to release documentation for possible
+      reason and solutions.
+
+
+Current Java thread:
+
+Dynamic libraries:
+08048000-08056000 r-xp 00000000 08:06 8896525    /home/michael/progs/j2sdk1.4.2_05/bin/java
+08056000-08059000 rwxp 0000d000 08:06 8896525    /home/michael/progs/j2sdk1.4.2_05/bin/java
+09545000-0958c000 rwxp 00000000 00:00 0          [heap]
+b6ba5000-b7096000 r-xs 00000000 08:06 3752151    /home/michael/progs/android-sdk-linux_86/platforms/android-7/android.jar
+b7096000-b70aa000 r-xp 00000000 08:06 8896653    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libzip.so
+b70aa000-b70ad000 rwxp 00013000 08:06 8896653    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libzip.so
+b70ad000-b70cd000 r-xp 00000000 08:06 8896658    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libjava.so
+b70cd000-b70cf000 rwxp 0001f000 08:06 8896658    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libjava.so
+b70cf000-b70d7000 r-xp 00000000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b70d7000-b70d8000 r-xp 00007000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b70d8000-b70d9000 rwxp 00008000 08:06 1196261    /lib/tls/i686/cmov/libnss_nis-2.11.1.so
+b70e0000-b70f0000 r-xp 00000000 08:06 8896656    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libverify.so
+b70f0000-b70f2000 rwxp 0000f000 08:06 8896656    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/libverify.so
+b70f2000-b70f6000 rwxs 00000000 08:06 11719426   /tmp/hsperfdata_michael/5636
+b70f6000-b711a000 r-xp 00000000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b711a000-b711b000 r-xp 00023000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b711b000-b711c000 rwxp 00024000 08:06 1196252    /lib/tls/i686/cmov/libm-2.11.1.so
+b711c000-b712f000 r-xp 00000000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b712f000-b7130000 r-xp 00012000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b7130000-b7131000 rwxp 00013000 08:06 1196256    /lib/tls/i686/cmov/libnsl-2.11.1.so
+b7133000-b752f000 r-xp 00000000 08:06 8896679    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/client/libjvm.so
+b752f000-b754a000 rwxp 003fb000 08:06 8896679    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/client/libjvm.so
+b755d000-b76b0000 r-xp 00000000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b76b0000-b76b1000 ---p 00153000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b76b1000-b76b3000 r-xp 00153000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b76b3000-b76b4000 rwxp 00155000 08:06 1196247    /lib/tls/i686/cmov/libc-2.11.1.so
+b76b7000-b76b9000 r-xp 00000000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b76b9000-b76ba000 r-xp 00001000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b76ba000-b76bb000 rwxp 00002000 08:06 1196250    /lib/tls/i686/cmov/libdl-2.11.1.so
+b76bc000-b76d1000 r-xp 00000000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b76d1000-b76d2000 r-xp 00014000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b76d2000-b76d3000 rwxp 00015000 08:06 1196264    /lib/tls/i686/cmov/libpthread-2.11.1.so
+b76d5000-b76df000 r-xp 00000000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b76df000-b76e0000 r-xp 00009000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b76e0000-b76e1000 rwxp 0000a000 08:06 1196259    /lib/tls/i686/cmov/libnss_files-2.11.1.so
+b76e1000-b76e7000 r-xp 00000000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b76e7000-b76e8000 r-xp 00006000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b76e8000-b76e9000 rwxp 00007000 08:06 1196257    /lib/tls/i686/cmov/libnss_compat-2.11.1.so
+b76e9000-b76f1000 r-xp 00000000 08:06 8896674    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/native_threads/libhpi.so
+b76f1000-b76f2000 rwxp 00007000 08:06 8896674    /home/michael/progs/j2sdk1.4.2_05/jre/lib/i386/native_threads/libhpi.so
+b76f4000-b76f5000 r-xp 00000000 00:00 0          [vdso]
+b76f5000-b7710000 r-xp 00000000 08:06 1164659    /lib/ld-2.11.1.so
+b7710000-b7711000 r-xp 0001a000 08:06 1164659    /lib/ld-2.11.1.so
+b7711000-b7712000 rwxp 0001b000 08:06 1164659    /lib/ld-2.11.1.so
+bfcac000-bfcc1000 rwxp 00000000 00:00 0          [stack]
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 0K [0xacad0000, 0xacb70000, 0xacfb0000)
+  eden space 512K,   0% used [0xacad0000, 0xacad0000, 0xacb50000)
+  from space 64K,   0% used [0xacb50000, 0xacb50000, 0xacb60000)
+  to   space 64K,   0% used [0xacb60000, 0xacb60000, 0xacb70000)
+ tenured generation   total 1408K, used 0K [0xacfb0000, 0xad110000, 0xb0ad0000)
+   the space 1408K,   0% used [0xacfb0000, 0xacfb0000, 0xacfb0200, 0xad110000)
+ compacting perm gen  total 4096K, used 46K [0xb0ad0000, 0xb0ed0000, 0xb4ad0000)
+   the space 4096K,   1% used [0xb0ad0000, 0xb0adb9d0, 0xb0adba00, 0xb0ed0000)
+
+Local Time = Mon Feb 27 14:43:44 2012
+Elapsed Time = 0
+#
+# HotSpot Virtual Machine Error : 11
+# Error ID : 4F530E43505002EF
+# Please report this error at
+# http://java.sun.com/cgi-bin/bugreport.cgi
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_05-b04 mixed mode)
+#
